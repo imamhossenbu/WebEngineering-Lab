@@ -1,0 +1,22 @@
+ul {
+    list-style-type: none;
+}
+
+
+ul li{
+    background-color: darkgray;
+    padding: 10px 10px;
+    margin: 15px 0;
+    width: 20%;
+    border-radius: 8px;
+    box-shadow: 0 5px 0px rgb(0, 0, 0);
+    /* border: 3px solid black; */
+    /* display: inline-block; */
+}
+
+
+ul li:hover{
+    background-color: lightgray;
+    box-shadow: 0 5px 0px rgb(0, 0, 0);
+    cursor: pointer;
+}

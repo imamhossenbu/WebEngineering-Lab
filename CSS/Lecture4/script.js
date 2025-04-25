@@ -7,8 +7,6 @@ gsap.from("ul li", {
 
 
 
-
-
 gsap.from("h1", {
     duration: 2,
     y: -100,

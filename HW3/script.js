@@ -127,7 +127,7 @@ var tl6 = gsap.timeline({
     scrollTrigger: {
         trigger: ".projects-section",
         start: "top 80%",
-        end: "top 0%",
+        end: "top -30%",
         scrub: 1,
     }
 });
@@ -140,10 +140,10 @@ tl6.from(".projects-section h2", {
 
 
 tl6.from(".projects-section .project-card", {    
-    duration: 2,
-    y: 200,
+    duration: 1,
+    x: 200,
     opacity: 0,
-    stagger: 0.3,
+    stagger: 0.2,
 });
 
 
